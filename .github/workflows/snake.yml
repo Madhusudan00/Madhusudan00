@@ -16,7 +16,7 @@ jobs:
       # Generate the snake contribution graph
       - uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Madhusudan00
           outputs: |
             dist/github-contribution-grid-snake.svg
 
